@@ -1,0 +1,51 @@
+{
+  "name": "@jensdemo/design-tokens",
+  "version": "0.0.1",
+  "description": "Design tokens from our design system.",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./css/variables.css": "./dist/css/variables.css",
+    "./json/components.json": {
+      "types": "./dist/json/components.d.ts",
+      "import": "./dist/json/components.json",
+      "require": "./dist/json/components.json"
+    },
+    "./raw/tokens.json": "./tokens.json"
+  },
+  "files": [
+    "dist",
+    "tokens.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "tokens:build": "style-dictionary build --config sd.config.js --verbose",
+    "tokens:watch": "style-dictionary build --config sd.config.js --watch --clean",
+    "prepublishOnly": "npm run tokens:build"
+  },
+  "keywords": [
+    "design-tokens",
+    "style-dictionary",
+    "tokens-studio"
+  ],
+  "author": "jenoftencodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenniferokafor/design-tokens-package/issues"
+  },
+  "homepage": "https://github.com/jenniferokafor/design-tokens-package#readme",
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.1",
+    "semantic-release": "^25.0.1",
+    "style-dictionary": "^5.1.1",
+    "typescript": "^5.9.3"
+  }
+}

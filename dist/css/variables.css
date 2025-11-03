@@ -1,0 +1,30 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --hero-background: #2f1893;
+  --hero-text: #ffffff;
+  --hero-max-width: 665px;
+  --hero-gap: 20px;
+  --hero-heading-color: #ffffff;
+  --hero-heading-accent-color: #25dac5;
+  --hero-heading-font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --hero-heading-font-size: 52px;
+  --hero-heading-font-weight: 700;
+  --hero-heading-line-height: 1.2px;
+  --hero-body-color: #ffffff;
+  --hero-body-font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --hero-body-font-size: 18px;
+  --hero-body-font-weight: 400;
+  --hero-body-line-height: 1.2px;
+  --button-primary-background: #25dac5;
+  --button-primary-text: #ffffff;
+  --button-primary-radius: 30px;
+  --button-primary-padding-x: 46px;
+  --button-primary-padding-y: 22px;
+  --button-primary-font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --button-primary-font-size: 16px;
+  --button-primary-font-weight: 500;
+  --button-primary-line-height: 1px;
+}
