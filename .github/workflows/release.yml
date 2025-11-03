@@ -34,9 +34,6 @@ jobs:
       - name: Build package
         run: npm run tokens:build
 
-      - name: Configure npm for provenance
-        run: npm config set provenance true
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
