@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "background": {
+      "$type": "color",
+      "$value": "{color.background.hero}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{color.text.inverse}"
+    },
+    "maxWidth": {
+      "$type": "dimension",
+      "$value": "{layout.container.hero}"
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": "{space.stack.lg}"
+    }
+  },
+  "heroHeading": {
+    "color": {
+      "$type": "color",
+      "$value": "{color.text.inverse}"
+    },
+    "accentColor": {
+      "$type": "color",
+      "$value": "{color.primary}"
+    },
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "{typography.heading.xl.family}"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "{typography.heading.xl.size}"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "{typography.heading.xl.weight}"
+    },
+    "lineHeight": {
+      "$type": "dimension",
+      "$value": "{typography.heading.xl.lineHeight}"
+    }
+  },
+  "heroBody": {
+    "color": {
+      "$type": "color",
+      "$value": "{color.text.inverse}"
+    },
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "{typography.body.md.family}"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "{typography.body.md.size}"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "{typography.body.md.weight}"
+    },
+    "lineHeight": {
+      "$type": "dimension",
+      "$value": "{typography.body.md.lineHeight}"
+    }
+  },
+  "buttonPrimary": {
+    "background": {
+      "$type": "color",
+      "$value": "{color.primary}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{color.text.inverse}"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.control}"
+    },
+    "paddingX": {
+      "$type": "dimension",
+      "$value": "{space.control.paddingX}"
+    },
+    "paddingY": {
+      "$type": "dimension",
+      "$value": "{space.control.paddingY}"
+    },
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "{typography.control.md.family}"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "{typography.control.md.size}"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "{typography.control.md.weight}"
+    },
+    "lineHeight": {
+      "$type": "dimension",
+      "$value": "{typography.control.md.lineHeight}"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "color": {
+    "purple": {
+      "700": {
+        "$type": "color",
+        "$value": "#2F1893"
+      }
+    },
+    "teal": {
+      "500": {
+        "$type": "color",
+        "$value": "#25DAC5"
+      }
+    },
+    "neutral": {
+      "0": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#0F172A"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#000000"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "base": {
+        "$type": "fontFamily",
+        "$value": "DM Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+      }
+    },
+    "weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": "400"
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": "500"
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": "700"
+      }
+    },
+    "size": {
+      "md": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "52px"
+      }
+    },
+    "lineHeight": {
+      "tight": {
+        "$type": "dimension",
+        "$value": "1"
+      },
+      "snug": {
+        "$type": "dimension",
+        "$value": "1.2"
+      }
+    }
+  },
+  "radius": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "30px"
+    }
+  },
+  "space": {
+    "20": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "22": {
+      "$type": "dimension",
+      "$value": "22px"
+    },
+    "46": {
+      "$type": "dimension",
+      "$value": "46px"
+    }
+  },
+  "size": {
+    "container": {
+      "md": {
+        "$type": "dimension",
+        "$value": "665px"
+      }
+    }
+  }
+}

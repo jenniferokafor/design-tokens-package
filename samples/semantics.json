@@ -1,0 +1,118 @@
+{
+  "color": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.teal.500}"
+    },
+    "background": {
+      "hero": {
+        "$type": "color",
+        "$value": "{color.purple.700}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.neutral.0}"
+      }
+    }
+  },
+  "radius": {
+    "control": {
+      "$type": "dimension",
+      "$value": "{radius.xl}"
+    }
+  },
+  "space": {
+    "stack": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{space.20}"
+      }
+    },
+    "control": {
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{space.46}"
+      },
+      "paddingY": {
+        "$type": "dimension",
+        "$value": "{space.22}"
+      }
+    }
+  },
+  "typography": {
+    "heading": {
+      "xl": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.base}"
+        },
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.3xl}"
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": "{font.weight.bold}"
+        },
+        "lineHeight": {
+          "$type": "dimension",
+          "$value": "{font.lineHeight.snug}"
+        }
+      }
+    },
+    "body": {
+      "md": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.base}"
+        },
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.lg}"
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": "{font.weight.regular}"
+        },
+        "lineHeight": {
+          "$type": "dimension",
+          "$value": "{font.lineHeight.snug}"
+        }
+      }
+    },
+    "control": {
+      "md": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.base}"
+        },
+        "size": {
+          "$type": "dimension",
+          "$value": "{font.size.md}"
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": "{font.weight.medium}"
+        },
+        "lineHeight": {
+          "$type": "dimension",
+          "$value": "{font.lineHeight.tight}"
+        }
+      }
+    }
+  },
+  "layout": {
+    "container": {
+      "hero": {
+        "$type": "dimension",
+        "$value": "{size.container.md}"
+      }
+    }
+  }
+}
